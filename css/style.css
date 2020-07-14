@@ -43,3 +43,37 @@ li{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 }
+.section1{
+	display: inline-block;
+	position: relative;
+}
+.img1{
+	position: absolute;
+	height: 324px;
+	padding-left: 103px;
+	display: inline-block;
+}
+.img2{
+	position: absolute;
+	height: 485px;
+	padding-left: 618px;
+	padding-top: 201px;
+}
+.img3{
+	position: absolute;
+	height: 227px;
+	padding-top: 65px;
+	padding-left: 1030px;
+}
+.text1{
+	position: absolute;
+	padding-top: 412px;
+	display: inline-block;
+}
+h2{
+	font-size: 25px;
+}
+p{
+	margin-top: 30px;
+	font-size: 14px;
+}
