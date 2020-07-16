@@ -4,28 +4,28 @@ body{
 	max-width: 1366px;
 	margin: auto;
 	background-color: #ECECEC;
-	padding-left: 80px;
-	padding-right: 80px;
-
 }
+
+
+/* Header */
 .d-header{
 	padding-top: 20px;
 	height: 80px;
 	
 }
 .logo{
+	padding-left: 80px;
 	display: inline-block;
 	vertical-align: middle;
 	
 }
 .d-navbar{
+	padding-right: 80px;
 	float: right;
 	display: inline-block;
 	vertical-align: middle;
 	padding-top: 10px;
-
 }
-
 li{
 	display: inline-block;
 	padding-left: 70px;
@@ -35,7 +35,6 @@ li{
 	font-size: 17px;
 	font-family: 'Montserrat', sans-serif;	
 	font-weight: medium;
-
 }
 .menu{
 	color: #2C2C2C;
@@ -43,6 +42,9 @@ li{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 }
+
+
+/*Sections*/
 .section1{
 	display: inline-block;
 	position: relative;
@@ -76,4 +78,71 @@ h2{
 p{
 	margin-top: 30px;
 	font-size: 14px;
+}
+.section2{
+	background-color: #ffffff;
+	opacity: 50%;
+}
+.s2{
+	padding-top: 118px;
+	text-align:center;
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+.p2{
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 118px;
+}
+.d-section2{
+	padding-top: 686px;
+}
+
+
+
+/*ABOUT*/
+.ab-section{
+	position: relative;
+}
+.edgarb{
+	background-image: url('../img/edgar berg.jpg');
+	height: 502px;
+	width: 382px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 183px;
+	display: inline-block;
+	background-size: cover;
+	margin-top: 53px;
+}
+.red{
+	position: absolute;
+	display: inline-block;
+	background-color: #FB2308;
+	height: 176px;
+	width: 176px;
+	border-radius:50%;
+	margin-top: 53px;
+	margin-left: 133px;
+	
+}
+.about{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: #ffffff;
+	text-align: center;
+	font-size:40px;
+	padding-top: 64px;
+	padding-left: 73px;
+	letter-spacing: 4px;
+	
+}
+.ab-text{
+	font-size: 20px;
+	margin-top: 304px;
+	margin-left: 133px;
+	position: absolute;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
