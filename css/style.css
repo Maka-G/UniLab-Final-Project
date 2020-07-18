@@ -44,7 +44,7 @@ li{
 }
 
 
-/*Sections*/
+/*Sections index.html */
 .section1{
 	display: inline-block;
 	position: relative;
@@ -106,7 +106,7 @@ p{
 }
 .edgarb{
 	background-image: url('../img/edgar berg.jpg');
-	height: 502px;
+	height: 452px;
 	width: 382px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -145,4 +145,62 @@ p{
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
+}
+
+
+/* CONTACT*/
+.contact-section{
+	position: relative;
+}
+.contact-img{ 
+	position: absolute;
+	background-image: url('../img/con-img.png');
+	height: 365px;
+	width: 1366px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.contact-red{
+	position: absolute;
+	background-color: #FB2308;
+	height: 176px;
+	width: 176px;
+	border-radius:50%;
+	margin-top: 304px;
+	margin-left: 80px;
+}
+.contact{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: #ffffff;
+	font-size:40px;
+	text-align: center;
+	padding-top: 64px;
+	padding-left: 73px;
+	letter-spacing: 4px;
+	
+}
+.contact-text{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 462px;
+}
+h3{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #2C2C2C;
+}
+.contact-p{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #2C2C2C;
+	padding-bottom: 30px;
 }
