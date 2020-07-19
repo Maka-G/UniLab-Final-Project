@@ -211,7 +211,7 @@ h2{
 	font-weight: 200;
 	margin-left: 698px;
 	width: 588px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .img9{
 	background-image: url('../img/09.jpg');
@@ -223,6 +223,52 @@ h2{
 	margin-top: 1081px;
 }
 
+
+/*Section 5*/
+.section5{
+	position: relative;
+	margin-top: 1800px;
+}
+.s5-text{
+	position: absolute;
+	display: inline-block;
+
+}
+.s5-h{
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+}
+.s5-p{
+	font-size: 13px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 200;
+	width: 580px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+.img10{
+	position: absolute;
+	width: 382px;
+	margin-left: 904px;
+}
+.s5-video{
+	position: absolute;
+	margin-top: 136px;
+	margin-left: 80px;
+}
+.video{
+	width: 794px;
+	margin-bottom: 100px;
+}
+.s5-text2{
+	position: absolute;
+	margin-top: 560px;
+	margin-left: 824px;
+}
+.s5-h2{
+
+}
 /*ABOUT*/
 .ab-section{
 	position: relative;
