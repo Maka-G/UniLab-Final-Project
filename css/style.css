@@ -88,9 +88,9 @@ h2{
 }
 .p1{
 	margin-top: 30px;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: 'Comfortaa', cursive;
-	font-weight: 200px;
+	font-weight: 200;
 	margin-left: 80px;
 	color: #2C2C2C;
 	letter-spacing: 0.7px;
@@ -115,7 +115,7 @@ h2{
 }
 .p2{
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 	padding-bottom: 118px;
 	color: #2C2C2C
 	letter-spacing: 0.7px;
@@ -176,12 +176,53 @@ h2{
 	font-weight: 400;
 }
 .s3-p{
-	font-size: 14px;
+	font-size: 13px;
 	font-family: 'Comfortaa', cursive;
-	font-weight: 300;
+	font-weight: 200;
 	padding-top: 30px;
 	margin-left: 80px;
 }
+
+/*section4*/
+.section4{
+	position: relative;
+}
+.img8{
+	position: absolute;
+	margin-top: 914px;
+	margin-left: 80px;
+	width: 586px;
+}
+.s4-text{
+	margin-top: 914px;
+	position: absolute;
+	display: inline-block;
+}
+.s4-h{
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	margin-left: 1007px;
+	display: inline-block;
+}
+.s4-p{
+	font-size: 13px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 200;
+	margin-left: 698px;
+	width: 588px;
+	margin-top: 20px;
+}
+.img9{
+	background-image: url('../img/09.jpg');
+	position: absolute;
+	margin-left: 698px;
+	width: 584px;
+	height: 614px;
+	background-size: cover;
+	margin-top: 1081px;
+}
+
 /*ABOUT*/
 .ab-section{
 	position: relative;
