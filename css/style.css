@@ -79,7 +79,7 @@ li{
 	width: 514px;
 
 }
-h2{
+.s1-h1{
 	margin-left: 80px;
 	font-size: 25px;
 	font-family: 'Comfortaa', cursive;
@@ -112,6 +112,7 @@ h2{
 	letter-spacing: 1.25px;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 400;
+	margin-left: 80px;
 }
 .p2{
 	text-align: center;
@@ -169,6 +170,11 @@ h2{
 	color: #2C2C2C;
 	margin-top: 598px;
 	width: 400px;
+	margin-left: 80px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 25px;
+	width: 350px;
 }
 .s3-h2{
 	font-size: 25px;
@@ -180,7 +186,6 @@ h2{
 	font-family: 'Comfortaa', cursive;
 	font-weight: 200;
 	padding-top: 30px;
-	margin-left: 80px;
 }
 
 /*section4*/
@@ -232,12 +237,14 @@ h2{
 .s5-text{
 	position: absolute;
 	display: inline-block;
+	margin-left: 80px;
 
 }
 .s5-h{
 	font-size: 25px;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 400;
+
 }
 .s5-p{
 	font-size: 13px;
@@ -245,7 +252,7 @@ h2{
 	font-weight: 200;
 	width: 580px;
 	margin-top: 30px;
-	margin-left: 80px;
+
 }
 .img10{
 	position: absolute;
@@ -264,11 +271,89 @@ h2{
 .s5-text2{
 	position: absolute;
 	margin-top: 560px;
-	margin-left: 824px;
+	margin-left: 904px;
 }
 .s5-h2{
-
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	color: #2C2C2C;
 }
+
+/*Footer*/
+.d-footer{
+	position: relative;
+	height: 250px;
+	width: 100%;
+	background-color: #2C2C2C;
+	margin-top: 2550px;
+}
+.footer-text{
+	position: absolute;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 153px;
+	display: inline-block;
+}
+.f-contact{
+	display: block;;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ECECEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.f-mail{
+	display: block;
+	font-size: 13px;
+	color: #ECECEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.location-t{
+	display: inline-block;
+	position: absolute;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 389px;
+}
+.f-location{
+	display: block;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: #ECECEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.f-city{
+	display: block;
+	font-size: 13px;
+	color: #ECECEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.fsoc-icons{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 153px;
+}
+.ficons{
+	padding-right: 35px;
+}
+.copyright{
+	position: absolute;
+	display: inline-block;
+	font-size: 13px;
+	color: #ECECEC;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	margin-top: 180px;
+	margin-left: 874px;
+}
+
+
 /*ABOUT*/
 .ab-section{
 	position: relative;
