@@ -5,7 +5,6 @@ body{
 	margin: auto;
 	background-color: #ECECEC;
 	overflow-x: hidden;
-
 }
 
 
@@ -13,13 +12,11 @@ body{
 .d-header{
 	padding-top: 20px;
 	height: 80px;
-	
 }
 .logo{
 	padding-left: 80px;
 	display: inline-block;
 	vertical-align: middle;
-	
 }
 .d-navbar{
 	padding-right: 80px;
@@ -44,7 +41,26 @@ li{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
-
+/* scrollbar*/
+.scroll{
+	position: fixed;
+	margin-top:370px;
+	margin-left: 1194px;
+}
+.circle{
+	height: 92px;
+	background-color: #FB2308;
+	width: 92px;
+	border-radius:50%;
+}
+.up{
+	margin-bottom: 40px;
+	margin-left: 36px;
+}
+.down{
+	margin-top: 40px;
+	margin-left: 36px;
+}
 
 /*Sections index.html */
 .section1{
@@ -77,7 +93,6 @@ li{
 	margin-top: 452px;
 	display: inline-block;
 	width: 514px;
-
 }
 .s1-h1{
 	margin-left: 80px;
@@ -188,6 +203,7 @@ li{
 	padding-top: 30px;
 }
 
+
 /*section4*/
 .section4{
 	position: relative;
@@ -238,13 +254,11 @@ li{
 	position: absolute;
 	display: inline-block;
 	margin-left: 80px;
-
 }
 .s5-h{
 	font-size: 25px;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 400;
-
 }
 .s5-p{
 	font-size: 13px;
@@ -252,7 +266,6 @@ li{
 	font-weight: 200;
 	width: 580px;
 	margin-top: 30px;
-
 }
 .img10{
 	position: absolute;
@@ -378,7 +391,6 @@ li{
 	border-radius:50%;
 	margin-top: 53px;
 	margin-left: 133px;
-	
 }
 .about{
 	font-family: 'Montserrat', sans-serif;
@@ -389,7 +401,6 @@ li{
 	padding-top: 64px;
 	padding-left: 73px;
 	letter-spacing: 4px;
-	
 }
 .ab-text{
 	font-size: 18px;
@@ -403,6 +414,7 @@ li{
 .p-about{
 	margin-bottom: 30px;
 }
+
 
 /* CONTACT*/
 .contact-section{
@@ -437,7 +449,6 @@ li{
 	padding-top: 64px;
 	padding-left: 73px;
 	letter-spacing: 4px;
-	
 }
 .contact-text{
 	position: absolute;
@@ -453,7 +464,6 @@ h3{
 	padding-bottom: 20px;
 }
 .contact-p{
-	
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
