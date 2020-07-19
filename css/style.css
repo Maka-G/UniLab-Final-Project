@@ -4,6 +4,8 @@ body{
 	max-width: 1366px;
 	margin: auto;
 	background-color: #ECECEC;
+	overflow-x: hidden;
+
 }
 
 
@@ -34,13 +36,13 @@ li{
 	color: #2C2C2C;
 	font-size: 17px;
 	font-family: 'Montserrat', sans-serif;	
-	font-weight: medium;
+	font-weight: 500;
 }
 .menu{
 	color: #2C2C2C;
 	font-size: 17px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 
@@ -72,7 +74,7 @@ li{
 }
 .text1{
 	position: absolute;
-	margin-top: 412px;
+	margin-top: 452px;
 	display: inline-block;
 	width: 514px;
 
@@ -82,13 +84,13 @@ h2{
 	font-size: 25px;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 400;
-	color: #2C2C2C
+	color: #2C2C2C;
 }
 .p1{
 	margin-top: 30px;
 	font-size: 14px;
 	font-family: 'Comfortaa', cursive;
-	font-weight: 300px;
+	font-weight: 200px;
 	margin-left: 80px;
 	color: #2C2C2C;
 	letter-spacing: 0.7px;
@@ -96,8 +98,6 @@ h2{
 
 
 /*Section 2*/
-.d-section2{
-}
 .section2{
 	background-color: #ffffff;
 	opacity: 100%;
@@ -120,11 +120,68 @@ h2{
 	color: #2C2C2C
 	letter-spacing: 0.7px;
 	font-family: 'Comfortaa', cursive;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 
-
+/*Section 3*/
+.section3{
+	position: relative;	
+}
+.img4{
+	position: absolute;
+	width: 485px;
+	margin-left: 389px;
+}
+.img5{
+	position: absolute;
+	width: 279px;
+	margin-left: 80px;
+	margin-top: 250px;
+}
+.s3-text{
+	position: absolute;
+	display: inline-block;
+	width: 169px;
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	color: #2C2C2C;
+	margin-top: 148px;
+	margin-left: 1007px;
+}
+.img6{
+	width: 382px;
+	margin-left: 904px;
+	position: absolute;
+	margin-top: 317px;
+}
+.img7{
+	position: absolute;
+	width: 339px;
+	margin-top: 395.75px;
+	margin-left: 462px;
+	height: 404px;
+}
+.s3-text2{
+	position: absolute;
+	display: inline-block;
+	color: #2C2C2C;
+	margin-top: 598px;
+	width: 400px;
+}
+.s3-h2{
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+}
+.s3-p{
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	padding-top: 30px;
+	margin-left: 80px;
+}
 /*ABOUT*/
 .ab-section{
 	position: relative;
