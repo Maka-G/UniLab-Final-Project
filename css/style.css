@@ -50,6 +50,7 @@ li{
 	position: fixed;
 	margin-top:370px;
 	margin-left: 1194px;
+	z-index: 99999999;
 }
 .circle{
 	height: 92px;
